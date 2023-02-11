@@ -13,9 +13,10 @@ document.getElementById('btn-submit').addEventListener('click',function(){
     //step-4 verify email and password
 
     if(email==='mostakememon123@gmail.com' && pass==='mostakem123'){
+        window.location.href = 'bank.html';
 
     }else{
-        
+        alert('Invilid username and password')
     }
     
 })
